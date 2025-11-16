@@ -46,16 +46,16 @@ def allowed_file(filename):
 # ======================
 # SMTP CONFIGURATION
 # ======================
-SMTP_SERVER = 'smtp.gmail.com'
+SMTP_SERVER = 
 SMTP_PORT = 587
-SMTP_USERNAME = 'fathimathrizwana761@gmail.com'
-SMTP_PASSWORD = 'yspq zrgy mior tetu'
-FROM_EMAIL = 'Carbon Tracker <fathimathrizwana761@gmail.com>'
+SMTP_USERNAME = 
+SMTP_PASSWORD = 
+FROM_EMAIL = 
 
 
 # ========== HARDCODED CONFIGURATIONS (DEVELOPMENT ONLY) ==========
 # Gemini AI Configuration
-GEMINI_API_KEY = "AIzaSyAT4TJfOmiD8Uxy80Fqj_rKQ2ckRnQroO0"  # Replace with your actual key
+GEMINI_API_KEY =# Replace with your actual key
 genai.configure(api_key=GEMINI_API_KEY)
 
 
@@ -68,7 +68,7 @@ app.config['SESSION_REFRESH_EACH_REQUEST'] = True
 # MySQL configurations
 db_config = {
     'user': 'root',
-    'password': 'Miza@456',
+    'password': '',
     'host': 'localhost',
     'database': 'project'
 }

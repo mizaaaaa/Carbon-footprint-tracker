@@ -13,7 +13,6 @@ import string
 import smtplib
 from email.mime.text import MIMEText
 from werkzeug.utils import secure_filename
-
 # Initialize Flask app
 app = Flask(__name__)
 app.secret_key = 'your-very-secure-secret-key'  # Change this for production
